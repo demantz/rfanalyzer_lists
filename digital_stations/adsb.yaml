@@ -1,0 +1,2 @@
+- {id: 1090-mhz-es, name: 1090 MHz ES, mode: ADSB, frequency: 1090000000, bandwidth: 1000000, notes: Mode-S Extended
+    Squitter; global ADS-B standard.}

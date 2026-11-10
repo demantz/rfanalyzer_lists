@@ -1,0 +1,91 @@
+- id: hf-aprs-30m
+  name: HF APRS 30m (300 Bd)
+  mode: AX25
+  frequency: 10149300
+  bandwidth: 300
+  params:
+    ax25: {baudRate: 300}
+  notes: 'The signal centre: 1700 Hz above the USB dial frequency 10.1476 MHz (1600/1800 Hz tones); the same signal
+    as the legacy 10.151 MHz LSB spec. Source: aprs.org/APRS-docs/HF.TXT.'
+- id: iss-aprs-digipeater-vhf
+  name: ISS APRS Digipeater (VHF)
+  mode: AX25
+  frequency: 145825000
+  bandwidth: 12500
+  params:
+    ax25: {baudRate: 1200}
+  notes: 'Simplex digipeater, alias ARISS. Source: aprs.org/ariss.html.'
+- id: iss-aprs-digipeater-uhf
+  name: ISS APRS Digipeater (UHF)
+  mode: AX25
+  frequency: 437825000
+  bandwidth: 12500
+  params:
+    ax25: {baudRate: 1200}
+  notes: 'Simplex digipeater, alias ARISS. Source: aprs.org/ariss.html.'
+- id: net105-hf-packet
+  name: Net105 HF packet (300 Bd)
+  mode: AX25
+  frequency: 14103300
+  bandwidth: 300
+  params:
+    ax25: {baudRate: 300}
+  notes: 'The signal centre: 14.105 MHz LSB dial, 1600/1800 Hz tones (200 Hz shift). Worldwide HF packet network
+    since 1986 (BBS, nodes, connections).'
+- id: aprs-144-800-mhz-europe
+  name: APRS 144.800 MHz (Europe)
+  mode: AX25
+  frequency: 144800000
+  bandwidth: 12500
+  regions: [1]
+  params:
+    ax25: {baudRate: 1200}
+  notes: 'Region-wide VHF APRS calling frequency. Source: IARU Region 1 VHF/UHF/Microwave Bandplan.'
+- id: 9600-baud-packet-backbone-db0avh
+  name: 9600 Baud Packet Backbone (DB0AVH)
+  mode: AX25
+  frequency: 438450000
+  bandwidth: 25000
+  countries: [DE]
+  location: {lat: 50.11, lon: 8.68}
+  params:
+    ax25: {baudRate: 9600}
+  notes: Representative node of Germany's FlexNet 9600-baud digipeater network (G3RUH modulation, +/-3 kHz deviation,
+    ~20 kHz occupied BW). Declining but still active.
+- id: aprs-144-390-mhz-americas
+  name: APRS 144.390 MHz (Americas)
+  mode: AX25
+  frequency: 144390000
+  bandwidth: 12500
+  regions: [2]
+  params:
+    ax25: {baudRate: 1200}
+  notes: 'Long-standing ARRL/QST convention. Secondary-sourced, unverified exceptions reported: Argentina 144.930
+    MHz, Brazil 145.570 MHz.'
+- id: aprs-se-asia
+  name: APRS SE Asia
+  mode: AX25
+  frequency: 144390000
+  bandwidth: 12500
+  countries: [MY, TH, SG, ID]
+  params:
+    ax25: {baudRate: 1200}
+  notes: Malaysia/Thailand/Singapore/Indonesia.
+- id: aprs-greater-china
+  name: APRS Greater China
+  mode: AX25
+  frequency: 144640000
+  bandwidth: 12500
+  countries: [CN, TW, HK]
+  params:
+    ax25: {baudRate: 1200}
+  notes: China/Taiwan/Hong Kong.
+- id: aprs-japan
+  name: APRS Japan
+  mode: AX25
+  frequency: 144660000
+  bandwidth: 12500
+  countries: [JP]
+  params:
+    ax25: {baudRate: 1200}
+  notes: Lower-confidence secondary source (JJ1BDX). Japan also has a separate 144.640 MHz 9600-baud GMSK data channel.

@@ -1,0 +1,48 @@
+- id: psk31-80m
+  name: PSK31 80m
+  mode: PSK31
+  frequency: 3581500
+  bandwidth: 200
+  params:
+    psk31: {baudRate: 0.0}
+  notes: Usual USB dial 3580 kHz; the channel sits 1500 Hz above it. Automatic 31/63/125 Bd.
+- id: psk31-40m
+  name: PSK31 40m
+  mode: PSK31
+  frequency: 7041500
+  bandwidth: 200
+  params:
+    psk31: {baudRate: 0.0}
+  notes: Usual USB dial 7040 kHz; the channel sits 1500 Hz above it. Automatic 31/63/125 Bd.
+- id: psk31-30m
+  name: PSK31 30m
+  mode: PSK31
+  frequency: 10143500
+  bandwidth: 200
+  params:
+    psk31: {baudRate: 0.0}
+  notes: Usual USB dial 10142 kHz; the channel sits 1500 Hz above it. Automatic 31/63/125 Bd.
+- id: psk31-20m
+  name: PSK31 20m
+  mode: PSK31
+  frequency: 14071500
+  bandwidth: 200
+  params:
+    psk31: {baudRate: 0.0}
+  notes: Usual USB dial 14070 kHz; the channel sits 1500 Hz above it. Automatic 31/63/125 Bd.
+- id: psk31-15m
+  name: PSK31 15m
+  mode: PSK31
+  frequency: 21071500
+  bandwidth: 200
+  params:
+    psk31: {baudRate: 0.0}
+  notes: Usual USB dial 21070 kHz; the channel sits 1500 Hz above it. Automatic 31/63/125 Bd.
+- id: psk31-10m
+  name: PSK31 10m
+  mode: PSK31
+  frequency: 28121500
+  bandwidth: 200
+  params:
+    psk31: {baudRate: 0.0}
+  notes: Usual USB dial 28120 kHz; the channel sits 1500 Hz above it. Automatic 31/63/125 Bd.

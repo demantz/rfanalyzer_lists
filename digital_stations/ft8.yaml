@@ -1,0 +1,27 @@
+- {id: ft8-160m, name: FT8 160m, mode: FT8, frequency: 1840000, bandwidth: 3000, notes: 'Source: IARU Region 3 Bandplan
+    (Doc. R3-004 rev.2); WSJT-X defaults.'}
+- {id: ft8-80m, name: FT8 80m, mode: FT8, frequency: 3573000, bandwidth: 3000, notes: 'Source: IARU Region 3 Bandplan
+    (Doc. R3-004 rev.2); WSJT-X defaults.'}
+- {id: ft8-60m, name: FT8 60m, mode: FT8, frequency: 5357000, bandwidth: 3000, notes: 'Community convention, not
+    IARU-codified; 60m access itself varies by country. Source: IARU Region 3 Bandplan (Doc. R3-004 rev.2); WSJT-X
+    defaults.'}
+- {id: ft8-40m, name: FT8 40m, mode: FT8, frequency: 7074000, bandwidth: 3000, notes: 'Source: IARU Region 3 Bandplan
+    (Doc. R3-004 rev.2); WSJT-X defaults.'}
+- {id: ft8-30m, name: FT8 30m, mode: FT8, frequency: 10136000, bandwidth: 3000, notes: 'Source: IARU Region 3 Bandplan
+    (Doc. R3-004 rev.2); WSJT-X defaults.'}
+- {id: ft8-20m, name: FT8 20m, mode: FT8, frequency: 14074000, bandwidth: 3000, notes: 'Source: IARU Region 3 Bandplan
+    (Doc. R3-004 rev.2); WSJT-X defaults.'}
+- {id: ft8-17m, name: FT8 17m, mode: FT8, frequency: 18100000, bandwidth: 3000, notes: 'Source: IARU Region 3 Bandplan
+    (Doc. R3-004 rev.2); WSJT-X defaults.'}
+- {id: ft8-15m, name: FT8 15m, mode: FT8, frequency: 21074000, bandwidth: 3000, notes: 'Source: IARU Region 3 Bandplan
+    (Doc. R3-004 rev.2); WSJT-X defaults.'}
+- {id: ft8-12m, name: FT8 12m, mode: FT8, frequency: 24915000, bandwidth: 3000, notes: 'Source: IARU Region 3 Bandplan
+    (Doc. R3-004 rev.2); WSJT-X defaults.'}
+- {id: ft8-10m, name: FT8 10m, mode: FT8, frequency: 28074000, bandwidth: 3000, notes: 'Source: IARU Region 3 Bandplan
+    (Doc. R3-004 rev.2); WSJT-X defaults.'}
+- {id: ft8-6m, name: FT8 6m, mode: FT8, frequency: 50313000, bandwidth: 3000, notes: 'Source: IARU Region 3 Bandplan
+    (Doc. R3-004 rev.2); WSJT-X defaults.'}
+- {id: ft8-2m, name: FT8 2m, mode: FT8, frequency: 144174000, bandwidth: 3000, notes: 'Informal, not in any official
+    IARU band plan. Source: IARU Region 3 Bandplan (Doc. R3-004 rev.2); WSJT-X defaults.'}
+- {id: ft8-70cm, name: FT8 70cm, mode: FT8, frequency: 432174000, bandwidth: 3000, notes: 'Informal, not in any
+    official IARU band plan. Source: IARU Region 3 Bandplan (Doc. R3-004 rev.2); WSJT-X defaults.'}

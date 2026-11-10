@@ -1,0 +1,48 @@
+- id: dwd-rtty-10100-8
+  name: DWD weather 10100.8 kHz
+  mode: RTTY
+  frequency: 10100800
+  bandwidth: 450
+  regions: [1]
+  params:
+    rtty: {baudRate: 50.0, frequencyShift: 450.0, polarity: REVERSED}
+  notes: Deutscher Wetterdienst (Pinneberg) weather reports, 50 Bd, mark on the lower tone; the published frequency
+    is the tone pair centre (verified on air 2026-10-20).
+- id: dwd-rtty-7646
+  name: DWD weather 7646 kHz
+  mode: RTTY
+  frequency: 7646000
+  bandwidth: 450
+  regions: [1]
+  params:
+    rtty: {baudRate: 50.0, frequencyShift: 450.0, polarity: REVERSED}
+  notes: Deutscher Wetterdienst (Pinneberg) weather reports, 50 Bd, mark on the lower tone; the published frequency
+    is the tone pair centre (verified on air 2026-10-20).
+- id: dwd-rtty-4583
+  name: DWD weather 4583 kHz
+  mode: RTTY
+  frequency: 4583000
+  bandwidth: 450
+  regions: [1]
+  params:
+    rtty: {baudRate: 50.0, frequencyShift: 450.0, polarity: REVERSED}
+  notes: Deutscher Wetterdienst (Pinneberg) weather reports, 50 Bd, mark on the lower tone; the published frequency
+    is the tone pair centre (verified on air 2026-10-20).
+- id: dwd-rtty-147-3
+  name: DWD weather 147.3 kHz
+  mode: RTTY
+  frequency: 147300
+  bandwidth: 85
+  regions: [1]
+  params:
+    rtty: {baudRate: 50.0, frequencyShift: 85.0, polarity: REVERSED}
+  notes: Deutscher Wetterdienst (Pinneberg) weather reports, 50 Bd, mark on the lower tone; the published frequency
+    is the tone pair centre (verified on air 2026-10-20).
+- id: rtty-20m
+  name: RTTY 20m (14.080-14.100 MHz)
+  mode: RTTY
+  frequency: 14090000
+  bandwidth: 170
+  params:
+    rtty: {baudRate: 0.0, frequencyShift: 0.0, polarity: AUTO}
+  notes: Amateur RTTY segment, mostly 45.45 Bd / 170 Hz; automatic baud rate, shift and polarity.

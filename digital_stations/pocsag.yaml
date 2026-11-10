@@ -1,0 +1,73 @@
+- id: dapnet-amateur-pocsag
+  name: DAPNET (Amateur POCSAG)
+  mode: POCSAG
+  frequency: 439987500
+  bandwidth: 12500
+  regions: [1, 2]
+  params:
+    pocsag: {baudRate: 1200}
+  notes: International amateur-radio POCSAG network (also used in US/Canada, France, Hungary, NL, Norway, Poland,
+    Portugal, Slovenia, Switzerland, UK).
+- id: skyper-e-message
+  name: Skyper (e*Message)
+  mode: POCSAG
+  frequency: 465970000
+  bandwidth: 12500
+  countries: [DE]
+  params:
+    pocsag: {baudRate: 1200}
+  notes: German commercial paging network;
+- id: cityruf-euromessage
+  name: Cityruf/Euromessage
+  mode: POCSAG
+  frequency: 466075000
+  bandwidth: 12500
+  countries: [DE]
+  params:
+    pocsag: {baudRate: 1200}
+  notes: German commercial paging network;
+- id: skytel-usa-mobility
+  name: SkyTel/USA Mobility
+  mode: POCSAG
+  frequency: 931937500
+  bandwidth: 12500
+  countries: [US]
+  params:
+    pocsag: {baudRate: 1200}
+  notes: Also carries 6400-baud FLEX.
+- id: australia-vhf-a
+  name: Australia VHF A
+  mode: POCSAG
+  frequency: 148337500
+  bandwidth: 12500
+  countries: [AU]
+  params:
+    pocsag: {baudRate: 1200}
+  notes: Hobbyist-documented via Wikipedia 'Radio-paging code No. 1';
+- id: australia-vhf-b
+  name: Australia VHF B
+  mode: POCSAG
+  frequency: 148662500
+  bandwidth: 12500
+  countries: [AU]
+  params:
+    pocsag: {baudRate: 1200}
+  notes: Hobbyist-documented via Wikipedia 'Radio-paging code No. 1';
+- id: australia-uhf-a
+  name: Australia UHF A
+  mode: POCSAG
+  frequency: 450325000
+  bandwidth: 12500
+  countries: [AU]
+  params:
+    pocsag: {baudRate: 1200}
+  notes: Hobbyist-documented via Wikipedia 'Radio-paging code No. 1';
+- id: australia-uhf-b
+  name: Australia UHF B
+  mode: POCSAG
+  frequency: 450375000
+  bandwidth: 12500
+  countries: [AU]
+  params:
+    pocsag: {baudRate: 1200}
+  notes: Hobbyist-documented via Wikipedia 'Radio-paging code No. 1';

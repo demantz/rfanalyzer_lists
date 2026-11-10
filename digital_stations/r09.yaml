@@ -1,0 +1,56 @@
+- id: r09-berlin-bvg
+  name: R09 Berlin (BVG)
+  mode: R09
+  frequency: 170450000
+  bandwidth: 20000
+  countries: [DE]
+  location: {lat: 52.52, lon: 13.4}
+  notes: Public-transport operational radio (R09 telegrams, VDV 420), 2400 or 1200 bit/s. Per-city network.
+- id: r09-dresden
+  name: R09 Dresden
+  mode: R09
+  frequency: 170810000
+  bandwidth: 20000
+  countries: [DE]
+  location: {lat: 51.05, lon: 13.74}
+  notes: Public-transport operational radio (R09 telegrams, VDV 420), 2400 or 1200 bit/s. Per-city network.
+- id: r09-karlsruhe
+  name: R09 Karlsruhe
+  mode: R09
+  frequency: 152930000
+  bandwidth: 20000
+  countries: &id001 [DE]
+  notes: Public-transport operational radio (R09 telegrams, VDV 420), 2400 or 1200 bit/s. Per-city network.
+  location: {lat: 49.01, lon: 8.4}
+- id: r09-ulm
+  name: R09 Ulm
+  mode: R09
+  frequency: 152930000
+  bandwidth: 20000
+  countries: *id001
+  notes: Public-transport operational radio (R09 telegrams, VDV 420), 2400 or 1200 bit/s. Per-city network.
+  location: {lat: 48.4, lon: 9.99}
+- id: r09-heidelberg
+  name: R09 Heidelberg
+  mode: R09
+  frequency: 152909800
+  bandwidth: 20000
+  countries: [DE]
+  location: {lat: 49.4, lon: 8.69}
+  notes: Public-transport operational radio (R09 telegrams, VDV 420), 2400 or 1200 bit/s. Per-city network.
+- id: r09-vienna
+  name: R09 Vienna
+  mode: R09
+  frequency: 146075000
+  bandwidth: 20000
+  countries: [AT]
+  location: {lat: 48.21, lon: 16.37}
+  notes: Public-transport operational radio (R09 telegrams, VDV 420), 2400 or 1200 bit/s. Per-city network.
+- id: r09-krakow-uhf
+  name: R09 Krakow (UHF)
+  mode: R09
+  frequency: 448062500
+  bandwidth: 20000
+  countries: [PL]
+  location: {lat: 50.06, lon: 19.94}
+  notes: Public-transport operational radio (R09 telegrams, VDV 420), 2400 or 1200 bit/s. Per-city network.
